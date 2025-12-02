@@ -1,0 +1,45 @@
+# Byte-compiled / optimized Python files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg-info/
+.cache/
+build/
+dist/
+*.egg
+*.whl
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment / Virtualenv
+virtualenv/
+env/
+venv/
+.venv/
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff cache
+.ruff_cache/
+
+# uv cache
+.uv/
+
+# Temporary files
+*.tmp
+*.swp
