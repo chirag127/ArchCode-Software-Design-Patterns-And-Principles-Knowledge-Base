@@ -1,58 +1,61 @@
 # 🐛 Bug Report
 
-Thank you for contributing to the **DevCore Software Design Principles Handbook**. By reporting bugs, you help us maintain this resource at an elite, zero-defect standard.
+Thank you for taking the time to report an issue. Adherence to these guidelines ensures rapid triage and resolution by the Apex Technical Authority.
 
---- 
+---
 
-## 1. Core Principle Alignment
+## 1. Summary
 
-Before submitting, please verify that the issue relates to a verifiable error in the documentation, examples, or structure, and not a misunderstanding of a design principle itself. We adhere strictly to SOLID, DRY, and YAGNI principles.
+> Briefly describe the bug in one concise sentence.
 
-## 2. Summary of the Issue
+**Example:** *The SOLID Principles documentation incorrectly cross-references Liskov Substitution Principle instead of Dependency Inversion.* 
 
-A brief, high-impact description of the bug. What is broken or incorrect?
+---
 
-<!-- e.g., 'The example code for the Strategy Pattern in the OOP section contains an unused variable.' -->
+## 2. Environment & Context
 
-[ ] **Is this a documentation error?** (Typo, broken link, unclear explanation)
-[ ] **Is this an example/code error?** (The code does not compile or correctly illustrate the concept)
-[ ] **Is this a structural/navigation issue?** (Broken TOC, bad badge link)
+This repository is treated as a static, knowledge-based artifact reviewed against **December 2025** architectural standards. Please specify where this discrepancy was observed.
 
-## 3. Steps to Reproduce
+### Artifact Location
 
-Provide a precise, numbered sequence that allows a maintainer to replicate the error immediately.
+*   **File Path:** `[e.g., /patterns/creational/factory.md]`
+*   **Section/Heading:** `[e.g., Open/Closed Principle Implementation]`
+*   **Observed Version/State:** `[If applicable, e.g., The current main branch state]`
 
-1. Go to the file/section: `[Link to specific line/section in Handbook]`
-2. Execute the following action (if applicable): `[CLI command or conceptual action]`
-3. Observe the result:
+### Reproduction Steps
 
-## 4. Expected Behavior
+Provide clear, numbered steps to reproduce the reported issue. If the issue is conceptual or documentation-based, describe the expected vs. actual content.
 
-What should have happened according to software engineering best practices or the description provided?
+1.  Navigate to the relevant documentation section.
+2.  [Step 2]
+3.  [Step 3]
 
-## 5. Actual Behavior
+---
 
-What actually happened? (Screenshots or copied text output are highly valuable here).
+## 3. Expected vs. Actual Behavior
 
-## 6. Environment / Context
+### Expected Behavior
 
-If this relates to an external tool or standard mentioned within the Handbook (e.g., SOLID context, specific language version):
+What should the documentation or principle illustrate according to **2026 Technical Excellence Standards**?
 
-*   **Principle/Pattern:** (e.g., Open/Closed Principle)
-*   **Contextual Technology:** (e.g., C#, Python, Microservices)
-*   **Browser/Tool (if applicable):** (e.g., GitHub Viewer Version)
+### Actual Behavior
 
-## 7. Proposed Fix (Optional but Encouraged)
+What is currently written or displayed that is incorrect or confusing?
 
-If you have already identified the precise correction, please include it here. This significantly accelerates the verification and merge cycle.
+---
+
+## 4. Proposed Resolution (Optional but Encouraged)
+
+If you have already identified the fix, please propose the specific textual or structural correction here. This accelerates verification.
 
 markdown
-// Proposed change in X file:
-
-- Old Line
-+ New Line
+<!-- Insert proposed correction snippet here -->
 
 
---- 
+---
 
-**Repository Reference:** [DevCore Software Design Principles Handbook](https://github.com/chirag127/DevCore-Software-Design-Principles-Handbook)
+## 5. Artifact Verification Checklist
+
+*   [ ] I have confirmed this is not already covered in the `AGENTS.md` directives.
+*   [ ] I have verified the issue against the established repository standard (CC BY-NC 4.0).
+*   [ ] All steps in Section 2 are verifiable without requiring external tooling (as this is a documentation artifact).
